@@ -1,0 +1,558 @@
+{
+  "pillar_1": {
+    "title": "Gouvernance & Stratégie",
+    "tasks": [
+      {
+        "id": "gov_001",
+        "task": "Définir et formaliser l'appétit au risque (Risk Appetite Framework – RAF)",
+        "description": "Cartographie détaillée des risques clés (crédit, marché, liquidité, opérationnel, réputationnel, ESG). Définition des indicateurs stratégiques (CET1, Leverage, LCR, NSFR, concentration par contrepartie, coût du risque) avec seuils de tolérance verts/orange/rouges. Réalisation de scénarios de stress pour tester la résilience (choc de taux, défauts massifs, crise de liquidité). Production du Risk Appetite Statement validé par le Conseil.",
+        "responsible": "CRO (lead, propose la vision), Head of Risk Analytics (modélisation, stress-tests), Finance/ALM (ratios capital & liquidité), Business heads (besoin stratégique, contraintes marché)",
+        "deliverables": [
+          "Risk Appetite Statement (document de 15-20 pages) validé par le Conseil",
+          "Matrice des seuils par indicateur (CET1 > 14%, LCR > 120%, concentration < 10%)",
+          "Rapport de stress-tests avec 3 scénarios adverses et impacts chiffrés",
+          "Dashboard de suivi des limites avec alertes automatisées",
+          "Politique de Risk Appetite avec processus de révision annuelle"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "gov_002",
+        "task": "Analyser et traduire la stratégie business en métriques de risque chiffrées",
+        "description": "Analyse approfondie de la stratégie du business (croissance, marchés visés, produits nouveaux). Traduction en métriques chiffrées concrètes (exemple : croissance du portefeuille crédits PME max +15% par an, concentration < 10% par secteur). Alignement des objectifs business avec les contraintes de risque et les ratios réglementaires.",
+        "responsible": "CRO, CFO, Directeurs métiers, Head of Strategic Planning",
+        "deliverables": [
+          "Matrice d'alignement Stratégie-Risque (objectifs vs contraintes)",
+          "KPI business avec limites de risque intégrées (croissance, concentration, rentabilité)",
+          "Plan stratégique 3 ans avec trajectoire des ratios réglementaires",
+          "Tableau de bord stratégique avec 15-20 indicateurs clés",
+          "Note de synthèse pour le Conseil (5 pages) sur l'adéquation stratégie-risque"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "gov_003",
+        "task": "Mettre en place un Comité des Risques actif et décisionnel",
+        "description": "Structuration d'un comité des risques qui ne se limite pas au reporting mais oriente activement les décisions stratégiques. Définition des règles de gouvernance, fréquence des réunions, processus de décision et d'escalade. Intégration du risque dans la stratégie business (approche non-silotée).",
+        "responsible": "Président du Conseil, CRO, Secrétaire Général, Membres indépendants du Conseil",
+        "deliverables": [
+          "Charte du Comité des Risques avec mandats et responsabilités",
+          "Calendrier annuel des réunions (minimum 6 par an) avec agenda type",
+          "Processus de décision formalisé avec seuils d'approbation",
+          "Template de reporting au Comité (dashboard 1 page + note de synthèse)",
+          "Procès-verbaux des réunions avec décisions et suivis d'actions"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "gov_004",
+        "task": "Établir les politiques de risque et les limites opérationnelles",
+        "description": "Rédaction des politiques de risque détaillées par type (crédit, marché, liquidité, opérationnel). Définition des limites opérationnelles et des seuils d'alerte. Mise en place des processus d'approbation et de révision périodique des politiques. Documentation des exceptions et processus de dérogation.",
+        "responsible": "CRO, Risk Policy Manager, Compliance Officer, Audit interne",
+        "deliverables": [
+          "Politique de Risque de Crédit (30-40 pages) avec critères d'octroi",
+          "Politique de Risque de Marché avec limites VaR et sensitivités",
+          "Politique de Liquidité avec seuils LCR/NSFR et plan de contingence",
+          "Matrice des limites opérationnelles par métier et produit",
+          "Processus d'exception formalisé avec workflow d'approbation"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "gov_005",
+        "task": "Intégrer les critères ESG dans le framework de gouvernance des risques",
+        "description": "Identification et évaluation des risques climatiques et ESG. Intégration des critères environnementaux, sociaux et de gouvernance dans les politiques de risque. Définition d'indicateurs ESG et de seuils de tolérance. Alignement avec les réglementations européennes (Taxonomie, CSRD).",
+        "responsible": "CRO, ESG Manager, Risk Analytics, Compliance, Communication",
+        "deliverables": [
+          "Politique ESG intégrée aux politiques de risque existantes",
+          "Cartographie des risques climatiques (physiques et de transition)",
+          "Indicateurs ESG avec seuils (% portefeuille vert, émissions CO2)",
+          "Rapport de conformité Taxonomie européenne",
+          "Plan d'action ESG avec timeline et responsables"
+        ],
+        "completed": false,
+        "priority": "medium"
+      }
+    ]
+  },
+  "pillar_2": {
+    "title": "Risk Identification & Assessment",
+    "tasks": [
+      {
+        "id": "id_001",
+        "task": "Réaliser une cartographie exhaustive des risques par métier",
+        "description": "Cartographie complète des risques : crédit, marché, liquidité, opérationnel, conformité, cyber, climat, réputation. Organisation d'ateliers par métier (Risk workshops) pour collecte bottom-up. Analyse des tendances macro et sectorielles (approche top-down). Inventaire détaillé des produits et activités pour identifier les risques émergents (nouveaux marchés, fintech, dérivés).",
+        "responsible": "CRO (supervision), Head of Enterprise Risk Management (ERM), Responsables métiers (Front Office, IT, Compliance), Audit interne",
+        "deliverables": [
+          "Risk Map visuelle avec matrice Probabilité x Impact (heat map)",
+          "Inventaire exhaustif des risques par métier (150-200 risques identifiés)",
+          "Rapports d'ateliers par métier avec participants et conclusions",
+          "Analyse des tendances sectorielles et macroéconomiques (20 pages)",
+          "Base de données des risques avec classification et scoring"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "id_002",
+        "task": "Créer et maintenir un Risk Register centralisé",
+        "description": "Mise en place d'une base centralisée des risques (Risk Register) avec classification, probabilité, impact et mesures de mitigation. Utilisation de questionnaires de risque (Risk & Control Self-Assessment – RCSA). Processus de mise à jour trimestrielle et validation par les responsables métiers.",
+        "responsible": "Enterprise Risk Manager, Risk Analysts, Responsables métiers, IT (développement plateforme)",
+        "deliverables": [
+          "Plateforme Risk Register avec interface web accessible",
+          "Base de données structurée avec 500+ entrées de risques",
+          "Questionnaires RCSA standardisés par métier (10-15 questionnaires)",
+          "Rapports trimestriels d'évolution du profil de risque",
+          "Procédure de mise à jour avec workflow de validation"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "id_003",
+        "task": "Développer des scénarios de stress-tests intégrés",
+        "description": "Conception de scénarios macroéconomiques adverses (récession, choc de taux, crise sectorielle). Intégration des stress-tests dans les modèles de risque (PD, LGD, EAD). Test de la résilience du bilan et des ratios réglementaires sous stress. Production de rapports de stress-tests pour le régulateur (ICAAP, ILAAP).",
+        "responsible": "Head of Risk Analytics, Quants/Modellers, ALM, Finance, Économiste en chef",
+        "deliverables": [
+          "3 scénarios de stress macroéconomiques calibrés (base, adverse, sévère)",
+          "Modèles de stress intégrés dans le Risk Engine",
+          "Rapport de stress-test annuel (80-100 pages) pour régulateur",
+          "Impact chiffré sur CET1, LCR, NSFR sous stress",
+          "Plan de contingence avec actions correctives par scénario"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "id_004",
+        "task": "Mettre en place un système d'identification des risques émergents",
+        "description": "Veille proactive sur les risques émergents (cyber, IA, climat, géopolitique). Analyse d'impact des nouvelles réglementations et technologies. Processus d'évaluation rapide des nouveaux risques. Intégration dans les comités de risque et reporting au Conseil.",
+        "responsible": "Strategic Risk Manager, Veille réglementaire, IT Security, ESG Manager, Innovation",
+        "deliverables": [
+          "Système de veille avec sources d'information structurées",
+          "Rapport trimestriel des risques émergents (10-15 pages)",
+          "Grille d'évaluation rapide des nouveaux risques (scoring)",
+          "Alertes automatisées sur évolutions réglementaires",
+          "Présentation semestrielle au Comité des Risques"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "id_005",
+        "task": "Produire un Top Risks Report actualisé et actionnable",
+        "description": "Production trimestrielle d'un rapport des risques majeurs avec évolution des niveaux de risque. Analyse des tendances et signaux d'alerte précoce. Recommandations d'actions concrètes pour la Direction. Suivi des plans de mitigation et de leur efficacité.",
+        "responsible": "CRO, Enterprise Risk Manager, Risk Analysts, Communication interne",
+        "deliverables": [
+          "Top 10 Risks Report trimestriel (15-20 pages)",
+          "Dashboard des risques majeurs avec évolution temporelle",
+          "Signaux d'alerte précoce avec seuils définis",
+          "Plans d'action de mitigation avec responsables et échéances",
+          "Présentation executive summary pour COMEX (5 slides)"
+        ],
+        "completed": true,
+        "priority": "medium"
+      }
+    ]
+  },
+  "pillar_3": {
+    "title": "Risk Measurement & Data Management",
+    "tasks": [
+      {
+        "id": "mes_001",
+        "task": "Développer et valider les modèles de risque de crédit (PD/LGD/EAD)",
+        "description": "Développement de modèles robustes pour calculer la Probabilité de Défaut (PD), Loss Given Default (LGD) et Exposure at Default (EAD). Calibration sur données historiques et validation statistique. Conformité aux standards Bâle III/IV et IFRS9. Calcul des Expected Credit Loss (ECL) et des RWA standardisés & IRB.",
+        "responsible": "Quants/Risk Modellers (développement), Model Risk Management (validation indépendante), Risk Controllers (vérification cohérence)",
+        "deliverables": [
+          "Documentation complète des modèles PD/LGD/EAD (100+ pages)",
+          "Code source des modèles avec tests unitaires et validation",
+          "Rapport de validation indépendante par Model Risk Management",
+          "Backtesting sur 5 ans avec analyse des performances",
+          "Certification de conformité Bâle III/IV et IFRS9"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "mes_002",
+        "task": "Implémenter un Risk Engine intégré et automatisé",
+        "description": "Développement d'un moteur de calcul des risques (Python, R, SAS ou solutions éditeurs comme Moody's RAY, Tagetik). Intégration des calculs de crédit, marché, liquidité et opérationnel. Automatisation des stress-tests et scénarios. Interface avec les systèmes source et les dashboards de pilotage.",
+        "responsible": "IT/Risk Tech Developers, Risk Quants, Data Engineers, Architecture IT",
+        "deliverables": [
+          "Risk Engine opérationnel avec interface utilisateur",
+          "Architecture technique documentée avec flux de données",
+          "API REST pour intégration avec systèmes tiers",
+          "Rapports automatisés quotidiens/mensuels/trimestriels",
+          "Manuel utilisateur et documentation technique"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "mes_003",
+        "task": "Mettre en place la mesure des risques de marché (VaR, Expected Shortfall)",
+        "description": "Calcul de la Value at Risk (VaR) et Expected Shortfall pour le portefeuille de trading. Mesure des sensitivités (Delta, Vega, Gamma) pour les instruments dérivés. Stress-tests sur les positions de marché. Conformité aux exigences réglementaires CRR3 et FRTB.",
+        "responsible": "Market Risk Analysts, Front Office Quants, Risk Controllers, IT (systèmes de pricing)",
+        "deliverables": [
+          "Système de calcul VaR quotidien avec historique 2 ans",
+          "Rapports de sensitivités par desk et instrument",
+          "Backtesting VaR avec analyse des exceptions",
+          "Stress-tests de marché avec 10 scénarios standards",
+          "Conformité FRTB avec calculs SA-TB et IMA"
+        ],
+        "completed": true,
+        "priority": "medium"
+      },
+      {
+        "id": "mes_004",
+        "task": "Calculer et monitorer les ratios de liquidité (LCR, NSFR)",
+        "description": "Calcul quotidien du Liquidity Coverage Ratio (LCR) et Net Stable Funding Ratio (NSFR). Modélisation des flux de liquidité en stress. Optimisation de la gestion actif-passif (ALM). Reporting réglementaire des ratios de liquidité aux superviseurs.",
+        "responsible": "ALM Team, Liquidity Risk Manager, Treasury, Risk Controllers",
+        "deliverables": [
+          "Système de calcul LCR quotidien automatisé",
+          "Modèle NSFR avec projections 12 mois",
+          "Stress-tests de liquidité avec 5 scénarios",
+          "Optimiseur ALM pour gestion du bilan",
+          "Reporting réglementaire LCR/NSFR conforme"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "mes_005",
+        "task": "Développer la mesure du risque opérationnel (méthode standardisée et avancée)",
+        "description": "Mise en place des indicateurs Business Indicator (CRR3) pour le risque opérationnel. Collecte et analyse des incidents et pertes opérationnelles. Développement de modèles internes (AMA) si applicable. Intégration des risques cyber et de conformité dans la mesure.",
+        "responsible": "Operational Risk Manager, IT Security, Compliance, Risk Data Analysts",
+        "deliverables": [
+          "Base de données des pertes opérationnelles (5 ans d'historique)",
+          "Calcul Business Indicator conforme CRR3",
+          "Modèles de distribution des pertes par ligne métier",
+          "Indicateurs de risque cyber avec seuils d'alerte",
+          "Rapport annuel de risque opérationnel"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "mes_006",
+        "task": "Assurer la qualité et la traçabilité des données de risque",
+        "description": "Mise en place d'un hub de données intégré évitant les écarts entre Risk, Finance et IT. Processus ETL robustes pour la collecte multi-filiales. Contrôles de qualité automatisés et réconciliations. Documentation complète des flux de données pour les auditeurs et régulateurs.",
+        "responsible": "Data Management Team, IT/ETL experts, Risk Controllers, Data Quality Manager",
+        "deliverables": [
+          "Data Hub centralisé avec 200+ sources de données",
+          "Processus ETL documentés avec SLA de fraîcheur",
+          "Tableau de bord Data Quality avec 50+ contrôles",
+          "Dictionnaire de données avec métadonnées complètes",
+          "Certification de traçabilité pour audit réglementaire"
+        ],
+        "completed": false,
+        "priority": "high"
+      }
+    ]
+  },
+  "pillar_4": {
+    "title": "Reporting & Regulatory Compliance",
+    "tasks": [
+      {
+        "id": "rep_001",
+        "task": "Automatiser la production des reportings COREP (ratios de fonds propres)",
+        "description": "Production automatisée des ratios de fonds propres (CET1, Tier 1, Total Capital Ratio). Calcul des grands risques et du ratio de levier. Contrôles de cohérence automatisés et réconciliations. Respect des deadlines BCE/ACPR avec processus de validation interne robuste.",
+        "responsible": "Regulatory Reporting Manager (pilotage), Risk & Finance Analysts (réconciliations), IT/ETL experts (automatisation)",
+        "deliverables": [
+          "Système automatisé de production COREP avec validation",
+          "Rapports COREP trimestriels conformes taxonomie XBRL",
+          "Contrôles de cohérence automatisés (100+ règles)",
+          "Documentation des calculs pour audit réglementaire",
+          "Historique 3 ans des ratios avec analyse des évolutions"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "rep_002",
+        "task": "Produire les états financiers réglementaires FINREP",
+        "description": "Production des états financiers consolidés réglementaires (FINREP) conformes aux normes IFRS. Réconciliation avec les comptes sociaux et COREP. Automatisation des contrôles de cohérence entre les différents reportings. Validation par les commissaires aux comptes.",
+        "responsible": "Finance Consolidation Team, Regulatory Reporting, Risk Controllers, Audit externe",
+        "deliverables": [
+          "États FINREP trimestriels conformes taxonomie XBRL",
+          "Réconciliation FINREP/Comptes sociaux documentée",
+          "Contrôles croisés FINREP/COREP automatisés",
+          "Rapport de validation des commissaires aux comptes",
+          "Liasse de consolidation avec notes explicatives"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "rep_003",
+        "task": "Industrialiser le reporting des ratios de liquidité (LCR, NSFR)",
+        "description": "Production automatisée des ratios LCR (quotidien) et NSFR (trimestriel). Contrôles de cohérence avec les positions ALM. Reporting aux superviseurs dans les délais réglementaires. Analyse des tendances et alertes en cas de dégradation.",
+        "responsible": "ALM Reporting, Liquidity Risk, Treasury Operations, Regulatory Reporting",
+        "deliverables": [
+          "Reporting LCR quotidien automatisé avec historique",
+          "Reporting NSFR trimestriel conforme réglementation",
+          "Système d'alertes en cas de dégradation des ratios",
+          "Analyse mensuelle des tendances de liquidité",
+          "Interface superviseur pour transmission automatique"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "rep_004",
+        "task": "Préparer et produire les rapports ICAAP et ILAAP",
+        "description": "Évaluation interne du capital (ICAAP) et de la liquidité (ILAAP) avec stress-tests intégrés. Documentation des méthodologies et hypothèses. Validation par le Conseil d'Administration. Dialogue constructif avec le superviseur lors des revues SREP.",
+        "responsible": "CRO, Head of Capital Planning, Risk Analytics, Finance, Secrétariat Général",
+        "deliverables": [
+          "Rapport ICAAP annuel (150-200 pages) validé par le Conseil",
+          "Rapport ILAAP annuel (100-150 pages) avec stress-tests",
+          "Documentation méthodologique des modèles utilisés",
+          "Présentation au superviseur avec Q&A préparées",
+          "Plan d'amélioration suite aux recommandations SREP"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "rep_005",
+        "task": "Publier le rapport Pilier 3 (transparence publique)",
+        "description": "Production du rapport annuel de transparence (Pilier 3) détaillant les risques, fonds propres et gouvernance. Communication claire et pédagogique pour les investisseurs et analystes. Cohérence avec les autres publications financières. Validation par la Direction et le Conseil.",
+        "responsible": "Risk Communication, CRO, Finance, Communication externe, Investor Relations",
+        "deliverables": [
+          "Rapport Pilier 3 annuel (80-120 pages) publié sur le site web",
+          "Présentation investisseurs avec focus risques",
+          "Communiqué de presse sur la publication",
+          "Cohérence vérifiée avec rapport annuel et ICAAP",
+          "Feedback des analystes et investisseurs collecté"
+        ],
+        "completed": true,
+        "priority": "medium"
+      },
+      {
+        "id": "rep_006",
+        "task": "Mettre en place des outils spécialisés de reporting réglementaire",
+        "description": "Implémentation d'outils spécialisés (Tagetik, AxiomSL, Moody's RAY, WK OneSumX) pour industrialiser la production. Formation des équipes aux nouveaux outils. Automatisation maximale des contrôles et validations. Réduction des risques opérationnels et des délais de production.",
+        "responsible": "IT Project Manager, Regulatory Reporting, Finance IT, Risk Technology, Formation",
+        "deliverables": [
+          "Plateforme de reporting réglementaire opérationnelle",
+          "Formation de 20+ utilisateurs aux nouveaux outils",
+          "Automatisation de 80% des contrôles manuels",
+          "Réduction de 50% des délais de production",
+          "Documentation utilisateur et procédures opérationnelles"
+        ],
+        "completed": false,
+        "priority": "medium"
+      }
+    ]
+  },
+  "pillar_5": {
+    "title": "Risk Monitoring & Control",
+    "tasks": [
+      {
+        "id": "mon_001",
+        "task": "Développer des Key Risk Indicators (KRI) avec seuils et alertes automatisées",
+        "description": "Définition de KRI pertinents pour crédit, marché, liquidité et opérationnel avec seuils verts/orange/rouges. Automatisation des alertes (emails/SMS) en cas de dépassement. Intégration dans les dashboards de pilotage. Révision trimestrielle des seuils et de la pertinence des indicateurs.",
+        "responsible": "Risk Control Officers (surveillance quotidienne), IT/BI Developers (automatisation), CRO & COMEX (définition seuils)",
+        "deliverables": [
+          "Catalogue de 50+ KRI avec définitions et seuils",
+          "Système d'alertes automatisées (email/SMS/dashboard)",
+          "Dashboard KRI temps réel avec historique 2 ans",
+          "Procédure de révision trimestrielle des seuils",
+          "Rapport mensuel d'analyse des dépassements"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "mon_002",
+        "task": "Mettre en place un système de Limit Monitoring en temps réel",
+        "description": "Suivi quotidien des limites de concentration, VaR, LCR et autres ratios critiques. Système d'alertes en temps réel en cas d'approche ou de dépassement des limites. Processus d'escalade défini avec responsabilités claires. Reporting quotidien aux équipes de direction.",
+        "responsible": "Limit Monitoring Team, Risk Controllers, Front Office, Middle Office, CRO",
+        "deliverables": [
+          "Système de monitoring temps réel des limites",
+          "Matrice des limites par métier et produit (200+ limites)",
+          "Processus d'escalade formalisé avec timeline",
+          "Rapport quotidien de consommation des limites",
+          "Interface mobile pour alertes urgentes"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "mon_003",
+        "task": "Créer des dashboards temps réel pour COMEX et Conseil",
+        "description": "Développement de tableaux de bord dynamiques (Power BI, Tableau, Qlik) pour le pilotage stratégique. Visualisation en temps réel des ratios clés, positions de risque et alertes. Interface intuitive adaptée aux besoins de la Direction. Accès sécurisé et mobile pour les membres du Conseil.",
+        "responsible": "BI Developers, Risk Analysts, IT Security, Communication interne, CRO",
+        "deliverables": [
+          "Dashboard COMEX avec 20 indicateurs clés temps réel",
+          "Dashboard Conseil avec synthèse mensuelle",
+          "Application mobile sécurisée pour accès distant",
+          "Formation des dirigeants à l'utilisation des dashboards",
+          "Système de notification push pour alertes critiques"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "mon_004",
+        "task": "Établir une Risk Control Room avec surveillance continue",
+        "description": "Mise en place d'une salle de contrôle des risques avec monitoring 24/7 des positions critiques. Équipes dédiées pour la surveillance continue des marchés et positions. Procédures d'urgence en cas de crise. Coordination avec les équipes de trading et ALM.",
+        "responsible": "Head of Risk Control, Risk Control Officers, IT Operations, Trading Floor Management",
+        "deliverables": [
+          "Salle de contrôle équipée avec écrans de monitoring",
+          "Équipe de 6-8 Risk Controllers en rotation 24/7",
+          "Procédures d'urgence et plan de continuité d'activité",
+          "Système de communication intégré (trading/ALM/direction)",
+          "Rapport mensuel d'activité de la Risk Control Room"
+        ],
+        "completed": false,
+        "priority": "low"
+      },
+      {
+        "id": "mon_005",
+        "task": "Implémenter la 3 Lines of Defense avec contrôles indépendants",
+        "description": "Structuration claire des trois lignes de défense : métiers (1ère ligne), risk management (2ème ligne), audit interne (3ème ligne). Définition des rôles et responsabilités de chaque ligne. Processus de contrôle indépendant et de reporting. Formation des équipes aux principes de la 3LoD.",
+        "responsible": "CRO, Head of Internal Audit, Compliance Officer, Operational Risk Manager, Formation",
+        "deliverables": [
+          "Charte 3 Lines of Defense avec rôles et responsabilités",
+          "Matrice RACI des contrôles par ligne de défense",
+          "Formation de 100+ collaborateurs aux principes 3LoD",
+          "Processus de coordination entre les 3 lignes",
+          "Rapport annuel d'efficacité du dispositif 3LoD"
+        ],
+        "completed": true,
+        "priority": "medium"
+      },
+      {
+        "id": "mon_006",
+        "task": "Développer des capacités d'anticipation avec IA et machine learning",
+        "description": "Utilisation de l'intelligence artificielle pour l'analyse prédictive des risques. Modèles de machine learning pour détecter les signaux faibles et tendances émergentes. Automatisation de la surveillance avec agents intelligents. Amélioration continue des modèles prédictifs.",
+        "responsible": "Data Scientists, AI/ML Engineers, Risk Analytics, IT Innovation, CRO",
+        "deliverables": [
+          "Modèles ML de détection d'anomalies opérationnels",
+          "Système de scoring prédictif des défauts clients",
+          "Agents intelligents pour surveillance automatisée",
+          "Tableau de bord des signaux faibles avec IA",
+          "Rapport trimestriel de performance des modèles IA"
+        ],
+        "completed": false,
+        "priority": "low"
+      }
+    ]
+  },
+  "pillar_6": {
+    "title": "Tools & Services",
+    "tasks": [
+      {
+        "id": "too_001",
+        "task": "Développer un IFRS9 ECL Engine robuste et automatisé",
+        "description": "Développement d'un moteur de calcul des Expected Credit Loss (ECL) conforme IFRS9. Intégration des modèles PD/LGD/EAD avec scénarios macroéconomiques. Automatisation des calculs Stage 1/2/3 et des provisions. Interface avec les systèmes comptables et de reporting.",
+        "responsible": "Risk Quants & Modellers, IT/Risk Tech Developers, Finance (comptabilité), Model Risk Management",
+        "deliverables": [
+          "Moteur ECL IFRS9 opérationnel avec interface web",
+          "Intégration de 3 scénarios macroéconomiques",
+          "Calculs automatisés Stage 1/2/3 pour 100% du portefeuille",
+          "Interface comptable pour provisionnement automatique",
+          "Documentation technique et validation réglementaire"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "too_002",
+        "task": "Implémenter un RWA Calculator (standardisé et IRB)",
+        "description": "Développement d'un calculateur RWA conforme CRR3 et Bâle IV. Support des approches standardisées et IRB (Foundation et Advanced). Intégration des facteurs de risque sectoriels et géographiques. Simulation d'impact des changements réglementaires.",
+        "responsible": "Risk Technology Team, Regulatory Specialists, Quants, IT Developers",
+        "deliverables": [
+          "Calculateur RWA multi-approches (SA, IRB-F, IRB-A)",
+          "Base de données des facteurs de risque réglementaires",
+          "Simulateur d'impact Bâle IV avec timeline",
+          "Interface de simulation pour optimisation capital",
+          "Certification de conformité CRR3 par audit externe"
+        ],
+        "completed": true,
+        "priority": "high"
+      },
+      {
+        "id": "too_003",
+        "task": "Créer un Liquidity Simulator avec stress-tests intégrés",
+        "description": "Simulateur de liquidité pour calculs LCR, NSFR et stress-tests intraday. Modélisation des flux de liquidité en conditions normales et de stress. Optimisation de la gestion de la liquidité et du collatéral. Interface avec les systèmes de trading et de règlement.",
+        "responsible": "ALM Technology, Liquidity Risk, Treasury Systems, Risk Developers",
+        "deliverables": [
+          "Simulateur de liquidité avec modélisation des flux",
+          "Calculs LCR/NSFR intégrés avec stress-tests",
+          "Optimiseur de collatéral et de liquidité",
+          "Interface temps réel avec systèmes de trading",
+          "Rapports de simulation avec recommandations ALM"
+        ],
+        "completed": false,
+        "priority": "medium"
+      },
+      {
+        "id": "too_004",
+        "task": "Développer des Market Risk Tools avancés (VaR, sensitivités)",
+        "description": "Outils de calcul VaR, Expected Shortfall et sensitivités (Delta, Vega, Gamma) pour le portefeuille de trading. Intégration des modèles de pricing complexes. Stress-tests de marché automatisés. Conformité FRTB (Fundamental Review of Trading Book).",
+        "responsible": "Market Risk Quants, Front Office Technology, Risk IT, Model Validation",
+        "deliverables": [
+          "Plateforme de calcul VaR/ES avec 1000+ instruments",
+          "Calculateur de sensitivités Greeks temps réel",
+          "Bibliothèque de modèles de pricing validés",
+          "Stress-tests automatisés avec 20 scénarios",
+          "Conformité FRTB avec calculs SA-TB et IMA"
+        ],
+        "completed": true,
+        "priority": "medium"
+      },
+      {
+        "id": "too_005",
+        "task": "Mettre en place un Data Hub centralisé et traçable",
+        "description": "Hub de données centralisé pour collecter, nettoyer et distribuer les données de risque. Processus ETL robustes pour la collecte multi-filiales et multi-systèmes. Traçabilité complète des données et métadonnées. Gouvernance des données avec Data Quality Management.",
+        "responsible": "Data Management Team, Data Engineers, IT Architecture, Data Quality Manager",
+        "deliverables": [
+          "Data Hub centralisé avec 500+ sources intégrées",
+          "Processus ETL documentés avec SLA < 2h",
+          "Catalogue de données avec métadonnées complètes",
+          "Système de traçabilité end-to-end des données",
+          "Gouvernance des données avec comité dédié"
+        ],
+        "completed": false,
+        "priority": "high"
+      },
+      {
+        "id": "too_006",
+        "task": "Implémenter l'automatisation et l'IA pour la surveillance continue",
+        "description": "Développement d'agents intelligents multi-tâches pour la surveillance automatisée des risques. Automatisation des processus de contrôle et de validation. Utilisation de l'IA pour la détection d'anomalies et de fraudes. Amélioration continue des algorithmes de surveillance.",
+        "responsible": "AI/Automation Team, Risk Technology, Data Scientists, Process Excellence",
+        "deliverables": [
+          "Plateforme d'agents intelligents pour surveillance 24/7",
+          "Automatisation de 70% des contrôles manuels",
+          "Système de détection de fraude avec IA",
+          "Tableau de bord des anomalies détectées",
+          "ROI documenté de l'automatisation (gain temps/coûts)"
+        ],
+        "completed": false,
+        "priority": "low"
+      },
+      {
+        "id": "too_007",
+        "task": "Intégrer ou développer des solutions éditeurs spécialisées",
+        "description": "Évaluation et intégration de solutions éditeurs (Moody's RAY, AxiomSL, Tagetik, SAS Risk Management). Paramétrage selon les besoins spécifiques de la banque. Formation des équipes aux outils. Maintien de l'expertise interne pour éviter la dépendance excessive.",
+        "responsible": "Risk Technology Manager, Vendor Management, IT Project Management, Formation",
+        "deliverables": [
+          "Étude comparative des solutions éditeurs (50 pages)",
+          "Intégration réussie de 2-3 solutions sélectionnées",
+          "Formation de 30+ utilisateurs aux outils éditeurs",
+          "Contrats négociés avec SLA et support garantis",
+          "Plan de maintien de l'expertise interne"
+        ],
+        "completed": false,
+        "priority": "medium"
+      }
+    ]
+  }
+}
+

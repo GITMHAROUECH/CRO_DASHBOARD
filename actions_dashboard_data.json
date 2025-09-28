@@ -1,0 +1,478 @@
+{
+  "pillars_progress": {
+    "governance": {
+      "id": "governance",
+      "name": "Gouvernance & Stratégie",
+      "icon": "🏛️",
+      "total_tasks": 8,
+      "completed_tasks": 3,
+      "in_progress_tasks": 2,
+      "not_started_tasks": 3,
+      "completion_percentage": 37.5,
+      "critical_tasks": 2,
+      "tasks": [
+        {
+          "id": "gov_001",
+          "title": "Définir l'appétit au risque (RAF)",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-03-31",
+          "assignee": "CRO",
+          "description": "Formalisation du Risk Appetite Framework",
+          "completion_date": "2024-03-15"
+        },
+        {
+          "id": "gov_002",
+          "title": "Mise en place du Comité des Risques",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-04-30",
+          "assignee": "CRO",
+          "description": "Création et organisation du comité",
+          "completion_date": "2024-04-20"
+        },
+        {
+          "id": "gov_003",
+          "title": "Validation des politiques de risque",
+          "status": "done",
+          "priority": "medium",
+          "deadline": "2024-05-31",
+          "assignee": "Head of Risk",
+          "description": "Approbation des politiques par le Conseil",
+          "completion_date": "2024-05-25"
+        },
+        {
+          "id": "gov_004",
+          "title": "Définition des limites de risque",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-10-31",
+          "assignee": "Risk Analytics",
+          "description": "Établissement des limites par type de risque",
+          "progress": 65
+        },
+        {
+          "id": "gov_005",
+          "title": "Formation du Conseil sur les risques",
+          "status": "in_progress",
+          "priority": "medium",
+          "deadline": "2024-11-30",
+          "assignee": "CRO",
+          "description": "Programme de formation pour les administrateurs",
+          "progress": 30
+        },
+        {
+          "id": "gov_006",
+          "title": "Mise à jour de la stratégie risque",
+          "status": "not_started",
+          "priority": "high",
+          "deadline": "2024-12-31",
+          "assignee": "CRO",
+          "description": "Révision annuelle de la stratégie"
+        },
+        {
+          "id": "gov_007",
+          "title": "Audit de la gouvernance",
+          "status": "not_started",
+          "priority": "medium",
+          "deadline": "2025-01-31",
+          "assignee": "Internal Audit",
+          "description": "Évaluation de l'efficacité de la gouvernance"
+        },
+        {
+          "id": "gov_008",
+          "title": "Reporting au régulateur",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-02-28",
+          "assignee": "Compliance",
+          "description": "Soumission des rapports réglementaires"
+        }
+      ]
+    },
+    "identification": {
+      "id": "identification",
+      "name": "Risk Identification & Assessment",
+      "icon": "🔍",
+      "total_tasks": 6,
+      "completed_tasks": 2,
+      "in_progress_tasks": 2,
+      "not_started_tasks": 2,
+      "completion_percentage": 33.3,
+      "critical_tasks": 1,
+      "tasks": [
+        {
+          "id": "id_001",
+          "title": "Cartographie des risques",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-06-30",
+          "assignee": "ERM Team",
+          "description": "Identification complète des risques",
+          "completion_date": "2024-06-15"
+        },
+        {
+          "id": "id_002",
+          "title": "Évaluation des risques émergents",
+          "status": "done",
+          "priority": "medium",
+          "deadline": "2024-07-31",
+          "assignee": "Risk Analytics",
+          "description": "Analyse des nouveaux risques",
+          "completion_date": "2024-07-20"
+        },
+        {
+          "id": "id_003",
+          "title": "Stress tests réglementaires",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-10-31",
+          "assignee": "Risk Analytics",
+          "description": "Exécution des stress tests EBA",
+          "progress": 75
+        },
+        {
+          "id": "id_004",
+          "title": "Modélisation des risques climatiques",
+          "status": "in_progress",
+          "priority": "medium",
+          "deadline": "2024-12-31",
+          "assignee": "ESG Team",
+          "description": "Intégration des risques ESG",
+          "progress": 40
+        },
+        {
+          "id": "id_005",
+          "title": "Validation des modèles internes",
+          "status": "not_started",
+          "priority": "high",
+          "deadline": "2025-01-31",
+          "assignee": "Model Validation",
+          "description": "Validation des modèles IRB"
+        },
+        {
+          "id": "id_006",
+          "title": "Mise à jour du Risk Register",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-03-31",
+          "assignee": "ERM Team",
+          "description": "Actualisation du registre des risques"
+        }
+      ]
+    },
+    "measurement": {
+      "id": "measurement",
+      "name": "Risk Measurement & Data Management",
+      "icon": "📊",
+      "total_tasks": 7,
+      "completed_tasks": 1,
+      "in_progress_tasks": 3,
+      "not_started_tasks": 3,
+      "completion_percentage": 14.3,
+      "critical_tasks": 3,
+      "tasks": [
+        {
+          "id": "meas_001",
+          "title": "Implémentation IFRS 9",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-01-31",
+          "assignee": "Finance Team",
+          "description": "Mise en place des provisions IFRS 9",
+          "completion_date": "2024-01-15"
+        },
+        {
+          "id": "meas_002",
+          "title": "Calcul des RWA en temps réel",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-11-30",
+          "assignee": "IT Risk",
+          "description": "Système de calcul automatisé",
+          "progress": 60
+        },
+        {
+          "id": "meas_003",
+          "title": "Data Quality Management",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-12-31",
+          "assignee": "Data Team",
+          "description": "Amélioration de la qualité des données",
+          "progress": 45
+        },
+        {
+          "id": "meas_004",
+          "title": "Backtesting des modèles",
+          "status": "in_progress",
+          "priority": "medium",
+          "deadline": "2025-01-31",
+          "assignee": "Model Validation",
+          "description": "Tests de performance des modèles",
+          "progress": 25
+        },
+        {
+          "id": "meas_005",
+          "title": "Intégration ESG dans les métriques",
+          "status": "not_started",
+          "priority": "high",
+          "deadline": "2025-02-28",
+          "assignee": "ESG Team",
+          "description": "Mesure des risques climatiques"
+        },
+        {
+          "id": "meas_006",
+          "title": "Optimisation du capital",
+          "status": "not_started",
+          "priority": "medium",
+          "deadline": "2025-03-31",
+          "assignee": "ALM Team",
+          "description": "Stratégies d'optimisation"
+        },
+        {
+          "id": "meas_007",
+          "title": "Benchmark des métriques",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-04-30",
+          "assignee": "Risk Analytics",
+          "description": "Comparaison avec les pairs"
+        }
+      ]
+    },
+    "reporting": {
+      "id": "reporting",
+      "name": "Reporting & Regulatory Compliance",
+      "icon": "📋",
+      "total_tasks": 5,
+      "completed_tasks": 2,
+      "in_progress_tasks": 1,
+      "not_started_tasks": 2,
+      "completion_percentage": 40.0,
+      "critical_tasks": 1,
+      "tasks": [
+        {
+          "id": "rep_001",
+          "title": "Automatisation COREP/FINREP",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-08-31",
+          "assignee": "Reporting Team",
+          "description": "Automatisation des rapports réglementaires",
+          "completion_date": "2024-08-20"
+        },
+        {
+          "id": "rep_002",
+          "title": "Dashboard exécutif",
+          "status": "done",
+          "priority": "medium",
+          "deadline": "2024-09-30",
+          "assignee": "IT Risk",
+          "description": "Création du tableau de bord CRO",
+          "completion_date": "2024-09-25"
+        },
+        {
+          "id": "rep_003",
+          "title": "Reporting Pilier 3",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-12-31",
+          "assignee": "Reporting Team",
+          "description": "Publication des informations Pilier 3",
+          "progress": 70
+        },
+        {
+          "id": "rep_004",
+          "title": "Contrôles de cohérence",
+          "status": "not_started",
+          "priority": "medium",
+          "deadline": "2025-01-31",
+          "assignee": "Control Team",
+          "description": "Validation croisée des rapports"
+        },
+        {
+          "id": "rep_005",
+          "title": "Formation équipes reporting",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-02-28",
+          "assignee": "HR",
+          "description": "Montée en compétences"
+        }
+      ]
+    },
+    "monitoring": {
+      "id": "monitoring",
+      "name": "Risk Monitoring & Control",
+      "icon": "📈",
+      "total_tasks": 6,
+      "completed_tasks": 1,
+      "in_progress_tasks": 2,
+      "not_started_tasks": 3,
+      "completion_percentage": 16.7,
+      "critical_tasks": 2,
+      "tasks": [
+        {
+          "id": "mon_001",
+          "title": "Système d'alertes automatiques",
+          "status": "done",
+          "priority": "high",
+          "deadline": "2024-07-31",
+          "assignee": "IT Risk",
+          "description": "Alertes en temps réel sur les seuils",
+          "completion_date": "2024-07-25"
+        },
+        {
+          "id": "mon_002",
+          "title": "Monitoring des limites",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2024-11-30",
+          "assignee": "Risk Control",
+          "description": "Surveillance continue des limites",
+          "progress": 55
+        },
+        {
+          "id": "mon_003",
+          "title": "Contrôles de second niveau",
+          "status": "in_progress",
+          "priority": "medium",
+          "deadline": "2024-12-31",
+          "assignee": "Risk Control",
+          "description": "Mise en place des contrôles",
+          "progress": 35
+        },
+        {
+          "id": "mon_004",
+          "title": "KRI (Key Risk Indicators)",
+          "status": "not_started",
+          "priority": "high",
+          "deadline": "2025-01-31",
+          "assignee": "Risk Analytics",
+          "description": "Définition et suivi des KRI"
+        },
+        {
+          "id": "mon_005",
+          "title": "Tests de résistance internes",
+          "status": "not_started",
+          "priority": "medium",
+          "deadline": "2025-02-28",
+          "assignee": "Risk Analytics",
+          "description": "Stress tests propriétaires"
+        },
+        {
+          "id": "mon_006",
+          "title": "Audit des contrôles",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-03-31",
+          "assignee": "Internal Audit",
+          "description": "Évaluation de l'efficacité"
+        }
+      ]
+    },
+    "tools": {
+      "id": "tools",
+      "name": "Tools & Services",
+      "icon": "🛠️",
+      "total_tasks": 4,
+      "completed_tasks": 0,
+      "in_progress_tasks": 2,
+      "not_started_tasks": 2,
+      "completion_percentage": 0.0,
+      "critical_tasks": 1,
+      "tasks": [
+        {
+          "id": "tools_001",
+          "title": "Plateforme de gestion des risques",
+          "status": "in_progress",
+          "priority": "high",
+          "deadline": "2025-03-31",
+          "assignee": "IT Risk",
+          "description": "Implémentation d'une solution intégrée",
+          "progress": 30
+        },
+        {
+          "id": "tools_002",
+          "title": "Outils de modélisation",
+          "status": "in_progress",
+          "priority": "medium",
+          "deadline": "2025-04-30",
+          "assignee": "Risk Analytics",
+          "description": "Acquisition d'outils spécialisés",
+          "progress": 20
+        },
+        {
+          "id": "tools_003",
+          "title": "Formation aux nouveaux outils",
+          "status": "not_started",
+          "priority": "medium",
+          "deadline": "2025-05-31",
+          "assignee": "HR",
+          "description": "Programme de formation"
+        },
+        {
+          "id": "tools_004",
+          "title": "Maintenance et support",
+          "status": "not_started",
+          "priority": "low",
+          "deadline": "2025-06-30",
+          "assignee": "IT",
+          "description": "Contrats de maintenance"
+        }
+      ]
+    }
+  },
+  "global_summary": {
+    "total_tasks": 36,
+    "completed_tasks": 9,
+    "in_progress_tasks": 12,
+    "not_started_tasks": 15,
+    "completion_percentage": 25.0,
+    "critical_tasks_remaining": 10,
+    "overdue_tasks": 0,
+    "this_month_deadlines": 3,
+    "next_month_deadlines": 5
+  },
+  "priorities": {
+    "high": {
+      "total": 15,
+      "completed": 4,
+      "in_progress": 6,
+      "not_started": 5
+    },
+    "medium": {
+      "total": 15,
+      "completed": 4,
+      "in_progress": 5,
+      "not_started": 6
+    },
+    "low": {
+      "total": 6,
+      "completed": 1,
+      "in_progress": 1,
+      "not_started": 4
+    }
+  },
+  "deadlines": {
+    "overdue": [],
+    "this_week": [
+      {"task_id": "gov_004", "title": "Définition des limites de risque", "deadline": "2024-10-31"},
+      {"task_id": "id_003", "title": "Stress tests réglementaires", "deadline": "2024-10-31"}
+    ],
+    "this_month": [
+      {"task_id": "gov_005", "title": "Formation du Conseil sur les risques", "deadline": "2024-11-30"},
+      {"task_id": "meas_002", "title": "Calcul des RWA en temps réel", "deadline": "2024-11-30"},
+      {"task_id": "mon_002", "title": "Monitoring des limites", "deadline": "2024-11-30"}
+    ],
+    "next_month": [
+      {"task_id": "gov_006", "title": "Mise à jour de la stratégie risque", "deadline": "2024-12-31"},
+      {"task_id": "id_004", "title": "Modélisation des risques climatiques", "deadline": "2024-12-31"},
+      {"task_id": "meas_003", "title": "Data Quality Management", "deadline": "2024-12-31"},
+      {"task_id": "rep_003", "title": "Reporting Pilier 3", "deadline": "2024-12-31"},
+      {"task_id": "mon_003", "title": "Contrôles de second niveau", "deadline": "2024-12-31"}
+    ]
+  }
+}
+

@@ -1,0 +1,60 @@
+{
+  "cost_of_risk": {
+    "total_annualized": 0.32,
+    "vs_target_diff": -0.08,
+    "target": 0.40,
+    "historical_12m": [
+      {"date": "2023-10", "value": 0.28},
+      {"date": "2023-11", "value": 0.29},
+      {"date": "2023-12", "value": 0.30},
+      {"date": "2024-01", "value": 0.31},
+      {"date": "2024-02", "value": 0.30},
+      {"date": "2024-03", "value": 0.29},
+      {"date": "2024-04", "value": 0.31},
+      {"date": "2024-05", "value": 0.32},
+      {"date": "2024-06", "value": 0.33},
+      {"date": "2024-07", "value": 0.32},
+      {"date": "2024-08", "value": 0.31},
+      {"date": "2024-09", "value": 0.32}
+    ],
+    "by_portfolio": {
+      "Retail": {"CoR (%)": 0.45, "Provisions (M€)": 120.5},
+      "Corporate": {"CoR (%)": 0.25, "Provisions (M€)": 95.2},
+      "SME": {"CoR (%)": 0.55, "Provisions (M€)": 75.8}
+    },
+    "pd_comparison": {
+      "Retail": {"PD Modélisée (%)": 1.5, "PD Réalisée (%)": 1.6},
+      "Corporate": {"PD Modélisée (%)": 0.8, "PD Réalisée (%)": 0.7},
+      "SME": {"PD Modélisée (%)": 2.2, "PD Réalisée (%)": 2.5}
+    }
+  },
+  "rwa_breakdown": {
+    "total_rwa": 45700,
+    "vs_previous_quarter_pct": 2.1,
+    "by_risk_type": {
+      "Crédit": 35000,
+      "Marché": 5700,
+      "Opérationnel": 5000
+    },
+    "approaches": {
+      "standardized": 20000,
+      "irb_foundation": 10000,
+      "irb_advanced": 5000
+    }
+  },
+  "ifrs9_stages": {
+    "total_provisions": 291.5,
+    "vs_previous_quarter_pct": 5.2,
+    "by_stage": {
+      "1": {"amount": 50000, "provisions": 100.0, "Taux Couverture (%)": 0.2},
+      "2": {"amount": 5000, "provisions": 150.5, "Taux Couverture (%)": 3.0},
+      "3": {"amount": 1000, "provisions": 41.0, "Taux Couverture (%)": 41.0}
+    }
+  },
+  "historical_data": {
+    "cet1_ratio": { "monthly": [] },
+    "solvency_ratio": { "monthly": [] },
+    "lcr_ratio": { "monthly": [] },
+    "nsfr_ratio": { "monthly": [] }
+  }
+}

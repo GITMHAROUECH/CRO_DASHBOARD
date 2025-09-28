@@ -1,0 +1,34 @@
+{
+  "timestamp": "2025-09-27T02:11:23.146940",
+  "tests": [
+    {
+      "name": "Application principale accessible",
+      "status": "PASS",
+      "details": "Status Code: 200",
+      "url": "http://localhost:8501"
+    },
+    {
+      "name": "Application test mobile accessible",
+      "status": "PASS",
+      "details": "Status Code: 200",
+      "url": "http://localhost:8502"
+    },
+    {
+      "name": "Mode mobile avec paramètre ?mobile=1",
+      "status": "PASS",
+      "details": "Status Code: 200",
+      "url": "http://localhost:8501?mobile=1"
+    },
+    {
+      "name": "Contenu HTML mobile présent",
+      "status": "FAIL",
+      "details": "Indicateurs trouvés: []",
+      "url": "http://localhost:8501?mobile=1"
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "passed": 3,
+    "failed": 1
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "pnl_metrics": {
+    "pnb_quarterly": {
+      "current_quarter": 450.2,
+      "previous_quarter": 432.1,
+      "yoy_growth": 8.3,
+      "trend_12m": [420.5, 425.8, 435.2, 442.1, 438.9, 445.3, 451.7, 448.2, 452.6, 447.8, 449.1, 450.2],
+      "breakdown": {
+        "net_interest_income": 280.5,
+        "fee_commission_income": 120.3,
+        "trading_income": 49.4
+      }
+    },
+    "cost_income_ratio": {
+      "current": 58.7,
+      "target": 55.0,
+      "benchmark_sector": 62.3,
+      "trend_12m": [61.2, 60.8, 60.1, 59.8, 60.2, 59.5, 59.1, 58.9, 58.6, 58.4, 58.5, 58.7]
+    },
+    "roe_roa": {
+      "roe": {
+        "current": 11.2,
+        "target": 12.0,
+        "peer_median": 10.8,
+        "trend_12m": [10.1, 10.3, 10.5, 10.7, 10.9, 11.0, 11.1, 11.0, 11.2, 11.1, 11.3, 11.2],
+        "components": {
+          "net_income": 890.5,
+          "avg_equity": 7950.0
+        }
+      },
+      "roa": {
+        "current": 0.89,
+        "target": 0.95,
+        "peer_median": 0.82,
+        "trend_12m": [0.81, 0.82, 0.84, 0.85, 0.86, 0.87, 0.88, 0.87, 0.89, 0.88, 0.90, 0.89]
+      }
+    },
+    "net_interest_margin": {
+      "current": 1.85,
+      "previous_quarter": 1.82,
+      "trend_12m": [1.78, 1.79, 1.80, 1.81, 1.80, 1.82, 1.83, 1.84, 1.85, 1.84, 1.86, 1.85],
+      "breakdown": {
+        "lending_margin": 2.45,
+        "funding_cost": 0.60
+      }
+    }
+  },
+  "rwa_breakdown": {
+    "total_rwa": 45678.9,
+    "by_risk_type": {
+      "credit_risk": {
+        "amount": 34259.2,
+        "percentage": 75.0,
+        "approaches": {
+          "standardized": {
+            "amount": 15678.3,
+            "percentage": 45.8
+          },
+          "irb_foundation": {
+            "amount": 12890.4,
+            "percentage": 37.6
+          },
+          "irb_advanced": {
+            "amount": 5690.5,
+            "percentage": 16.6
+          }
+        },
+        "by_portfolio": {
+          "retail": 8945.2,
+          "corporate": 18234.6,
+          "sme": 4567.8,
+          "sovereign": 2511.6
+        }
+      },
+      "market_risk": {
+        "amount": 6834.5,
+        "percentage": 15.0,
+        "components": {
+          "trading_book": 4523.2,
+          "fx_risk": 1456.8,
+          "commodity_risk": 854.5
+        }
+      },
+      "operational_risk": {
+        "amount": 4585.2,
+        "percentage": 10.0,
+        "approach": "standardized",
+        "business_lines": {
+          "retail_banking": 1834.5,
+          "commercial_banking": 1523.8,
+          "trading_sales": 1226.9
+        }
+      }
+    },
+    "quarterly_evolution": [
+      {"quarter": "Q1-2024", "total": 44523.1, "credit": 33392.3, "market": 6678.5, "operational": 4452.3},
+      {"quarter": "Q2-2024", "total": 45123.7, "credit": 33842.8, "market": 6768.6, "operational": 4512.3},
+      {"quarter": "Q3-2024", "total": 45456.3, "credit": 34092.2, "market": 6818.4, "operational": 4545.7},
+      {"quarter": "Q4-2024", "total": 45678.9, "credit": 34259.2, "market": 6834.5, "operational": 4585.2}
+    ]
+  },
+  "cost_of_risk": {
+    "total_annualized": 0.32,
+    "quarterly": 0.08,
+    "target": 0.25,
+    "peer_median": 0.35,
+    "trend_12m": [0.38, 0.36, 0.34, 0.33, 0.31, 0.30, 0.29, 0.30, 0.31, 0.32, 0.33, 0.32],
+    "by_portfolio": {
+      "retail": {
+        "cost_of_risk": 0.45,
+        "provisions": 234.5,
+        "net_charge_offs": 189.3,
+        "recovery_rate": 0.42,
+        "outstanding": 15678.9
+      },
+      "corporate": {
+        "cost_of_risk": 0.28,
+        "provisions": 456.7,
+        "net_charge_offs": 398.2,
+        "recovery_rate": 0.65,
+        "outstanding": 28934.5
+      },
+      "sme": {
+        "cost_of_risk": 0.38,
+        "provisions": 123.4,
+        "net_charge_offs": 98.7,
+        "recovery_rate": 0.48,
+        "outstanding": 8745.2
+      }
+    },
+    "ifrs9_stages": {
+      "stage1": {
+        "amount": 23456.7,
+        "provisions": 45.8,
+        "coverage_ratio": 0.20,
+        "percentage": 44.1
+      },
+      "stage2": {
+        "amount": 3456.8,
+        "provisions": 234.5,
+        "coverage_ratio": 6.78,
+        "percentage": 6.5
+      },
+      "stage3": {
+        "amount": 1234.5,
+        "provisions": 567.8,
+        "coverage_ratio": 46.02,
+        "percentage": 2.3
+      }
+    },
+    "pd_vs_realized": {
+      "retail": {"modeled_pd": 2.3, "realized_pd": 2.7, "variance": 0.4},
+      "corporate": {"modeled_pd": 1.8, "realized_pd": 1.6, "variance": -0.2},
+      "sme": {"modeled_pd": 3.1, "realized_pd": 3.4, "variance": 0.3}
+    }
+  }
+}
+

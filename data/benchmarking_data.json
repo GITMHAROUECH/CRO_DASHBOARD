@@ -1,0 +1,285 @@
+{
+  "peer_benchmarks": {
+    "european_banks_tier1": {
+      "sample_size": 25,
+      "data_date": "2024-09-30",
+      "metrics": {
+        "cet1_ratio": {
+          "p10": 12.1,
+          "p25": 13.8,
+          "median": 15.2,
+          "p75": 16.9,
+          "p90": 18.4,
+          "average": 15.3,
+          "std_dev": 1.8,
+          "our_bank": 14.2,
+          "percentile_rank": 35,
+          "vs_median": -1.0,
+          "vs_average": -1.1
+        },
+        "solvency_ratio": {
+          "p10": 16.8,
+          "p25": 18.5,
+          "median": 20.1,
+          "p75": 22.3,
+          "p90": 24.7,
+          "average": 20.4,
+          "std_dev": 2.3,
+          "our_bank": 18.9,
+          "percentile_rank": 28,
+          "vs_median": -1.2,
+          "vs_average": -1.5
+        },
+        "lcr_ratio": {
+          "p10": 125.3,
+          "p25": 138.7,
+          "median": 152.4,
+          "p75": 168.9,
+          "p90": 185.2,
+          "average": 154.1,
+          "std_dev": 18.7,
+          "our_bank": 145.3,
+          "percentile_rank": 42,
+          "vs_median": -7.1,
+          "vs_average": -8.8
+        },
+        "nsfr_ratio": {
+          "p10": 108.2,
+          "p25": 115.6,
+          "median": 122.8,
+          "p75": 131.4,
+          "p90": 142.1,
+          "average": 124.2,
+          "std_dev": 10.8,
+          "our_bank": 118.7,
+          "percentile_rank": 31,
+          "vs_median": -4.1,
+          "vs_average": -5.5
+        },
+        "cost_of_risk": {
+          "p10": 0.18,
+          "p25": 0.28,
+          "median": 0.37,
+          "p75": 0.46,
+          "p90": 0.58,
+          "average": 0.38,
+          "std_dev": 0.12,
+          "our_bank": 0.32,
+          "percentile_rank": 68,
+          "vs_median": -0.05,
+          "vs_average": -0.06
+        },
+        "roe": {
+          "p10": 7.2,
+          "p25": 9.1,
+          "median": 11.4,
+          "p75": 13.8,
+          "p90": 16.2,
+          "average": 11.7,
+          "std_dev": 2.8,
+          "our_bank": 11.2,
+          "percentile_rank": 47,
+          "vs_median": -0.2,
+          "vs_average": -0.5
+        },
+        "cost_income_ratio": {
+          "p10": 52.3,
+          "p25": 58.7,
+          "median": 64.2,
+          "p75": 71.8,
+          "p90": 78.4,
+          "average": 65.1,
+          "std_dev": 8.2,
+          "our_bank": 58.7,
+          "percentile_rank": 75,
+          "vs_median": -5.5,
+          "vs_average": -6.4
+        }
+      }
+    },
+    "regulatory_minimums": {
+      "cet1_ratio": {
+        "pillar1": 4.5,
+        "conservation_buffer": 2.5,
+        "countercyclical_buffer": 0.0,
+        "systemic_buffer": 1.0,
+        "total_requirement": 8.0,
+        "management_buffer": 2.0,
+        "internal_target": 12.0
+      },
+      "solvency_ratio": {
+        "pillar1": 8.0,
+        "total_requirement": 10.5,
+        "management_buffer": 3.5,
+        "internal_target": 16.0
+      },
+      "lcr_ratio": {
+        "regulatory_minimum": 100.0,
+        "management_buffer": 10.0,
+        "internal_target": 110.0
+      },
+      "nsfr_ratio": {
+        "regulatory_minimum": 100.0,
+        "management_buffer": 5.0,
+        "internal_target": 105.0
+      }
+    }
+  },
+  "sector_analysis": {
+    "french_banks": {
+      "sample_size": 8,
+      "metrics": {
+        "cet1_ratio": {"median": 14.8, "our_rank": 4},
+        "solvency_ratio": {"median": 19.2, "our_rank": 5},
+        "cost_of_risk": {"median": 0.31, "our_rank": 3},
+        "roe": {"median": 10.9, "our_rank": 3}
+      }
+    },
+    "european_universal_banks": {
+      "sample_size": 15,
+      "metrics": {
+        "cet1_ratio": {"median": 15.1, "our_rank": 8},
+        "solvency_ratio": {"median": 20.0, "our_rank": 9},
+        "cost_of_risk": {"median": 0.35, "our_rank": 5},
+        "roe": {"median": 11.6, "our_rank": 7}
+      }
+    }
+  },
+  "time_series_benchmarks": {
+    "cet1_evolution_vs_peers": {
+      "periods": ["2022-Q1", "2022-Q2", "2022-Q3", "2022-Q4", "2023-Q1", "2023-Q2", "2023-Q3", "2023-Q4", "2024-Q1", "2024-Q2", "2024-Q3"],
+      "our_bank": [13.2, 13.0, 13.3, 13.6, 13.8, 13.9, 14.2, 14.2, 14.0, 14.3, 14.2],
+      "peer_median": [14.1, 14.3, 14.5, 14.8, 15.0, 15.1, 15.2, 15.3, 15.1, 15.2, 15.2],
+      "peer_p25": [12.8, 13.0, 13.2, 13.5, 13.7, 13.8, 13.9, 14.0, 13.8, 13.9, 13.8],
+      "peer_p75": [15.8, 16.0, 16.2, 16.5, 16.7, 16.8, 16.9, 17.0, 16.8, 16.9, 16.9]
+    }
+  },
+  "alert_thresholds": {
+    "cet1_ratio": {
+      "critical": 10.0,
+      "warning": 12.0,
+      "target": 14.0,
+      "optimal": 16.0
+    },
+    "solvency_ratio": {
+      "critical": 12.0,
+      "warning": 16.0,
+      "target": 18.0,
+      "optimal": 20.0
+    },
+    "lcr_ratio": {
+      "critical": 105.0,
+      "warning": 110.0,
+      "target": 120.0,
+      "optimal": 140.0
+    },
+    "nsfr_ratio": {
+      "critical": 102.0,
+      "warning": 105.0,
+      "target": 110.0,
+      "optimal": 120.0
+    },
+    "cost_of_risk": {
+      "optimal": 0.20,
+      "target": 0.30,
+      "warning": 0.40,
+      "critical": 0.50
+    },
+    "roe": {
+      "critical": 8.0,
+      "warning": 10.0,
+      "target": 12.0,
+      "optimal": 15.0
+    }
+  },
+  "current_alerts": [
+    {
+      "id": "ALERT_001",
+      "metric": "cet1_ratio",
+      "level": "warning",
+      "message": "CET1 ratio (14.2%) sous la cible interne (14.0%)",
+      "recommendation": "Considérer une augmentation de capital ou réduction RWA",
+      "priority": "medium",
+      "date_created": "2024-09-15",
+      "status": "active"
+    },
+    {
+      "id": "ALERT_002", 
+      "metric": "peer_performance",
+      "level": "info",
+      "message": "Performance CET1 en dessous de la médiane des peers (-1.0pp)",
+      "recommendation": "Analyser les meilleures pratiques des peers leaders",
+      "priority": "low",
+      "date_created": "2024-09-10",
+      "status": "active"
+    },
+    {
+      "id": "ALERT_003",
+      "metric": "solvency_ratio", 
+      "level": "warning",
+      "message": "Ratio de solvabilité (18.9%) sous la médiane peers (20.1%)",
+      "recommendation": "Évaluer l'optimisation du mix de capital Tier 2",
+      "priority": "medium",
+      "date_created": "2024-09-12",
+      "status": "active"
+    },
+    {
+      "id": "ALERT_004",
+      "metric": "cost_of_risk",
+      "level": "positive",
+      "message": "Coût du risque (0.32%) meilleur que médiane peers (0.37%)",
+      "recommendation": "Maintenir la qualité du portefeuille actuelle",
+      "priority": "info",
+      "date_created": "2024-09-08",
+      "status": "active"
+    }
+  ],
+  "performance_gaps": {
+    "priority_gaps": [
+      {
+        "metric": "solvency_ratio",
+        "gap": -1.2,
+        "gap_percentage": -6.0,
+        "required_improvement": "Augmenter Tier 2 de €300M ou réduire RWA de €1.2Md",
+        "estimated_cost": "15M€",
+        "timeline": "6 mois"
+      },
+      {
+        "metric": "lcr_ratio", 
+        "gap": -7.1,
+        "gap_percentage": -4.7,
+        "required_improvement": "Augmenter HQLA de €426M ou réduire outflows de €71M",
+        "estimated_cost": "5M€",
+        "timeline": "3 mois"
+      },
+      {
+        "metric": "nsfr_ratio",
+        "gap": -4.1,
+        "gap_percentage": -3.3,
+        "required_improvement": "Allonger maturité financement ou réduire ASF requis",
+        "estimated_cost": "8M€", 
+        "timeline": "9 mois"
+      }
+    ]
+  },
+  "best_practices": {
+    "top_performers": [
+      {
+        "bank": "Peer A",
+        "cet1_ratio": 17.2,
+        "key_factors": ["Optimisation RWA avancée", "Gestion active du capital", "Modèles IRB performants"]
+      },
+      {
+        "bank": "Peer B", 
+        "lcr_ratio": 178.3,
+        "key_factors": ["Diversification HQLA", "Gestion proactive liquidité", "Optimisation collatéral"]
+      },
+      {
+        "bank": "Peer C",
+        "cost_of_risk": 0.21,
+        "key_factors": ["Underwriting strict", "Early warning systems", "Recovery excellence"]
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,175 @@
+{
+  "pillar_1": {
+    "id": "governance",
+    "title": "Gouvernance & Stratégie",
+    "icon": "🏛️",
+    "description": "Définition de l'appétit au risque et des limites, alignement avec le plan stratégique de la banque, comité des risques & reporting au Conseil.",
+    "key_actions": [
+      {
+        "title": "Définir l'appétit au risque (Risk Appetite Framework – RAF)",
+        "what_to_prepare": [
+          "Cartographie des risques clés : crédit, marché, liquidité, opérationnel, réputationnel, ESG",
+          "Indicateurs stratégiques : CET1, Leverage, LCR, NSFR, concentration par contrepartie, coût du risque",
+          "Seuils de tolérance : définir pour chaque indicateur les limites vertes / orange / rouges",
+          "Scénarios de stress : tester la résilience (choc de taux, défauts massifs, crise de liquidité)"
+        ],
+        "methodology": [
+          "Analyser la stratégie du business (croissance, marchés visés, produits)",
+          "Traduire en metrics chiffrés (exemple : croissance du portefeuille crédits PME max +15% par an, concentration < 10% par secteur)",
+          "Formaliser dans un document Risk Appetite Statement validé par le Conseil"
+        ],
+        "profiles": ["CRO (lead, propose la vision)", "Head of Risk Analytics (modélisation, stress-tests)", "Finance/ALM (ratios capital & liquidité)", "Business heads (besoin stratégique, contraintes marché)"]
+      }
+    ],
+    "expected_result": [
+      "Un Risk Appetite Statement clair, validé par le Conseil",
+      "Une intégration du risque dans la stratégie business (pas en silo)",
+      "Un comité des risques actif, qui ne se limite pas à du reporting, mais oriente les décisions"
+    ]
+  },
+  "pillar_2": {
+    "id": "identification",
+    "title": "Risk Identification & Assessment",
+    "icon": "🔍",
+    "description": "Cartographie des risques (crédit, liquidité, marché, opérationnel, ESG), stress tests et scénarios macroéconomiques, intégration des risques émergents.",
+    "key_actions": [
+      {
+        "title": "Identifier les risques",
+        "what_to_prepare": [
+          "Cartographie des risques : crédit, marché, liquidité, opérationnel, conformité, cyber, climat, réputation",
+          "Processus bottom-up & top-down : collecte d'informations auprès des métiers et analyse des tendances macro",
+          "Inventaire des produits et activités pour identifier les risques liés (nouveaux marchés, fintech, dérivés)"
+        ],
+        "methodology": [
+          "Lancer des ateliers par métier (Risk workshops)",
+          "Créer un Risk Register (base centralisée des risques)",
+          "Utiliser des questionnaires de risque (Risk & Control Self-Assessment – RCSA)"
+        ],
+        "profiles": ["CRO (supervision)", "Head of Enterprise Risk Management (ERM)", "Responsables métiers (Front Office, IT, Compliance)", "Audit interne (contrôle indépendant)"]
+      }
+    ],
+    "expected_result": [
+      "Une Risk Map claire, validée par le Comité des Risques",
+      "Un Top Risks Report actualisé régulièrement",
+      "Des KRI intégrés aux dashboards pour alerter en temps réel",
+      "Une anticipation des risques émergents (cyber, climat, IA)"
+    ]
+  },
+  "pillar_3": {
+    "id": "measurement",
+    "title": "Risk Measurement & Data Management",
+    "icon": "📊",
+    "description": "Outils de calcul PD / LGD / EAD / RWA / ECL (IFRS9), consolidation réglementaire et comptable, solutions de data quality & ETL.",
+    "key_actions": [
+      {
+        "title": "Mesurer les risques",
+        "what_to_prepare": [
+          "Crédit : PD (Probability of Default), LGD (Loss Given Default), EAD (Exposure at Default), Calcul des Expected Credit Loss (ECL – IFRS9), RWA standardisés & IRB",
+          "Marché : VaR, Expected Shortfall, sensitivités (Delta, Vega)",
+          "Liquidité : Ratios réglementaires LCR, NSFR",
+          "Opérationnel : Indicateurs Business Indicator (CRR3), incidents et pertes"
+        ],
+        "methodology": [
+          "Développer un Risk Engine (Python, SAS, Tagetik, Moody's RAY)",
+          "Mettre en place des stress-tests intégrés (macro scenarios)",
+          "Avoir une fonction Model Risk Management pour la validation indépendante"
+        ],
+        "profiles": ["Quants / Risk Modellers (développement modèles PD/LGD/EAD)", "Risk Controllers (vérification cohérence)", "Audit interne (indépendance)"]
+      }
+    ],
+    "expected_result": [
+      "Des modèles robustes et validés, conformes aux standards Bâle/IFRS9",
+      "Des données fiables et traçables, prêtes pour le régulateur",
+      "Un hub de données intégré, évitant les écarts entre Risk, Finance et IT",
+      "Des rapports clairs et automatisés pour la Direction & le Conseil"
+    ]
+  },
+  "pillar_4": {
+    "id": "reporting",
+    "title": "Reporting & Regulatory Compliance",
+    "icon": "📋",
+    "description": "Production automatisée des rapports ACPR, EBA, BCE, Pilier 3 : transparence et communication, détection proactive des écarts entre COREP, FINREP et états financiers.",
+    "key_actions": [
+      {
+        "title": "Produire un reporting réglementaire fiable",
+        "what_to_prepare": [
+          "COREP : ratios de fonds propres (CET1, T2), grands risques, levier",
+          "FINREP : états financiers consolidés réglementaires",
+          "Ratios de liquidité : LCR, NSFR",
+          "ICAAP & ILAAP : évaluation interne du capital et de la liquidité",
+          "Pillar 3 : transparence publique (publication annuelle)"
+        ],
+        "methodology": [
+          "Construire un calendrier de reporting réglementaire aligné aux deadlines BCE/ACPR/EBA",
+          "Automatiser les contrôles de cohérence COREP ↔ FINREP ↔ Comptes sociaux",
+          "Industrialiser la production via outils spécialisés (Tagetik, AxiomSL, Moody's RAY, WK OneSumX)"
+        ],
+        "profiles": ["Regulatory Reporting Manager (pilotage production)", "Risk & Finance Analysts (réconciliations, contrôles)", "IT/ETL experts (flux de données)"]
+      }
+    ],
+    "expected_result": [
+      "Des reportings réglementaires justes, livrés dans les temps",
+      "Une cohérence totale entre Risk, Finance et Comptabilité",
+      "Une relation constructive avec le superviseur (pas défensive)",
+      "Une banque perçue comme solide, transparente et proactive"
+    ]
+  },
+  "pillar_5": {
+    "id": "monitoring",
+    "title": "Risk Monitoring & Control",
+    "icon": "📈",
+    "description": "Tableaux de bord temps réel, suivi des ratios (CET1, LCR, NSFR, Leverage), early warning indicators pour la direction générale.",
+    "key_actions": [
+      {
+        "title": "Mettre en place une surveillance continue",
+        "what_to_prepare": [
+          "KRI (Key Risk Indicators) : seuils et alertes pour crédit, marché, liquidité, opérationnel",
+          "Limit Monitoring : suivi quotidien des limites de concentration, VaR, LCR",
+          "Dashboards temps réel pour COMEX et Conseil"
+        ],
+        "methodology": [
+          "Développer des tableaux de bord dynamiques (Power BI, Tableau, Qlik)",
+          "Automatiser les alertes (emails/SMS) si seuils dépassés",
+          "Mettre en place une Risk Control Room avec suivi en continu"
+        ],
+        "profiles": ["Risk Control Officers (surveillance quotidienne)", "IT/BI Developers (mise en place dashboards)", "CRO & COMEX (lecture stratégique)"]
+      }
+    ],
+    "expected_result": [
+      "Un système de surveillance en continu, avec alertes et seuils clairs",
+      "Une capacité d'anticipation grâce aux KRI et à l'IA",
+      "Des incidents gérés rapidement, avec suivi des plans de remédiation",
+      "Une organisation robuste via la 3 Lines of Defense"
+    ]
+  },
+  "pillar_6": {
+    "id": "tools",
+    "title": "Tools & Services",
+    "icon": "🛠️",
+    "description": "Risk Engines : IFRS9 ECL Calculator, RWA Simulator, Data Hub : ETL pour collecte multi-filiales, AI & Automation : multi-agents pour surveillance continue.",
+    "key_actions": [
+      {
+        "title": "Risk Engines & Calculators",
+        "what_to_prepare": [
+          "IFRS9 ECL Engine : calculs PD / LGD / EAD → Expected Credit Loss",
+          "RWA Calculator : standard & IRB (CRR3, Bâle IV)",
+          "Liquidity Simulator : LCR, NSFR, stress-tests intraday",
+          "Market Risk Tools : VaR, sensitivités, Expected Shortfall"
+        ],
+        "methodology": [
+          "Développer des moteurs internes (Python, R, SAS) ou intégrer des solutions éditeurs (Moody's RAY, AxiomSL, Tagetik)",
+          "Automatiser les scénarios de stress dans le moteur",
+          "Connecter les résultats aux dashboards stratégiques (Power BI, Tableau)"
+        ],
+        "profiles": ["Risk Quants & Modellers", "IT/Risk Tech Developers", "Finance & Risk Analysts (exploitation des résultats)"]
+      }
+    ],
+    "expected_result": [
+      "Des engines robustes pour calculer ECL, RWA, LCR/NSFR",
+      "Un hub de données fiable et traçable",
+      "Des processus automatisés et intelligents, capables de détecter avant la crise",
+      "Une organisation formée et mobilisée, qui voit le risque comme un levier stratégique"
+    ]
+  }
+}
+

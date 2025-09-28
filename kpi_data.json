@@ -1,0 +1,163 @@
+{
+  "capital_ratios": {
+    "CET1": {
+      "name": "Common Equity Tier 1",
+      "current_value": 14.2,
+      "target_min": 12.0,
+      "regulatory_min": 4.5,
+      "warning_threshold": 13.0,
+      "unit": "%",
+      "status": "green",
+      "trend": "stable",
+      "description": "Ratio de fonds propres de base"
+    },
+    "leverage_ratio": {
+      "name": "Leverage Ratio",
+      "current_value": 5.8,
+      "target_min": 4.0,
+      "regulatory_min": 3.0,
+      "warning_threshold": 4.5,
+      "unit": "%",
+      "status": "green",
+      "trend": "increasing",
+      "description": "Ratio de levier financier"
+    }
+  },
+  "liquidity_ratios": {
+    "LCR": {
+      "name": "Liquidity Coverage Ratio",
+      "current_value": 145.3,
+      "target_min": 110.0,
+      "regulatory_min": 100.0,
+      "warning_threshold": 105.0,
+      "unit": "%",
+      "status": "green",
+      "trend": "stable",
+      "description": "Ratio de couverture de liquidité"
+    },
+    "NSFR": {
+      "name": "Net Stable Funding Ratio",
+      "current_value": 118.7,
+      "target_min": 105.0,
+      "regulatory_min": 100.0,
+      "warning_threshold": 102.0,
+      "unit": "%",
+      "status": "green",
+      "trend": "increasing",
+      "description": "Ratio de financement stable net"
+    }
+  },
+  "risk_metrics": {
+    "ECL": {
+      "name": "Expected Credit Loss",
+      "current_value": 285.4,
+      "target_max": 350.0,
+      "warning_threshold": 320.0,
+      "unit": "M€",
+      "status": "green",
+      "trend": "decreasing",
+      "description": "Pertes de crédit attendues IFRS9"
+    },
+    "RWA": {
+      "name": "Risk Weighted Assets",
+      "current_value": 45.2,
+      "target_max": 50.0,
+      "warning_threshold": 48.0,
+      "unit": "Md€",
+      "status": "orange",
+      "trend": "increasing",
+      "description": "Actifs pondérés du risque"
+    },
+    "cost_of_risk": {
+      "name": "Coût du Risque",
+      "current_value": 0.32,
+      "target_max": 0.40,
+      "warning_threshold": 0.35,
+      "unit": "%",
+      "status": "green",
+      "trend": "stable",
+      "description": "Coût du risque annualisé"
+    }
+  },
+  "performance_metrics": {
+    "RAROC": {
+      "name": "Risk Adjusted Return on Capital",
+      "current_value": 12.8,
+      "target_min": 10.0,
+      "warning_threshold": 8.0,
+      "unit": "%",
+      "status": "green",
+      "trend": "increasing",
+      "description": "Rendement ajusté du risque sur capital"
+    }
+  },
+  "risk_heatmap": {
+    "risks": [
+      {
+        "name": "Risque de crédit PME",
+        "category": "Crédit",
+        "probability": 3,
+        "impact": 4,
+        "current_level": "medium",
+        "trend": "stable"
+      },
+      {
+        "name": "Risque de liquidité",
+        "category": "Liquidité",
+        "probability": 2,
+        "impact": 5,
+        "current_level": "low",
+        "trend": "decreasing"
+      },
+      {
+        "name": "Risque de taux",
+        "category": "Marché",
+        "probability": 4,
+        "impact": 3,
+        "current_level": "medium",
+        "trend": "increasing"
+      },
+      {
+        "name": "Risque cyber",
+        "category": "Opérationnel",
+        "probability": 3,
+        "impact": 4,
+        "current_level": "medium",
+        "trend": "increasing"
+      },
+      {
+        "name": "Risque climatique",
+        "category": "ESG",
+        "probability": 4,
+        "impact": 3,
+        "current_level": "medium",
+        "trend": "increasing"
+      },
+      {
+        "name": "Risque de concentration",
+        "category": "Crédit",
+        "probability": 2,
+        "impact": 4,
+        "current_level": "low",
+        "trend": "stable"
+      },
+      {
+        "name": "Risque réglementaire",
+        "category": "Conformité",
+        "probability": 3,
+        "impact": 3,
+        "current_level": "medium",
+        "trend": "stable"
+      },
+      {
+        "name": "Risque de modèle",
+        "category": "Opérationnel",
+        "probability": 2,
+        "impact": 3,
+        "current_level": "low",
+        "trend": "stable"
+      }
+    ]
+  }
+}
+
