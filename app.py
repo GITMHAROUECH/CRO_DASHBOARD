@@ -637,6 +637,29 @@ def get_custom_css():
         #perf-finance-wrapper .pf-status { font-size: 0.8rem !important; font-weight: 500 !important; color: #6B7280 !important; }
         #perf-finance-wrapper .pf-comparison { font-size: 0.75rem !important; color: #9CA3AF !important; text-align: right !important; }
 
+        
+        /* ===== STYLES POUR L'ONGLET CAPITAL & SOLVENCY ===== */
+        .capital-card {
+            background-color: var(--white);
+            border: 1px solid var(--border-light);
+            border-radius: 12px;
+            padding: 1.5rem;
+            height: 100%;
+        }
+        .capital-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-medium) !important;
+            margin-bottom: 0.5rem;
+        }
+        .capital-value {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-dark) !important;
+        }
+        .capital-delta {
+            font-weight: 600;
+        }
     </style>
     """
 
@@ -1072,20 +1095,20 @@ def get_page_from_url():
             return name
     return None
 
-def is_mobile():
-    """Détection mobile côté serveur"""
-    try:
-        # Nouvelle API
-        mobile_param = st.query_params.get("mobile", "0")
-        return mobile_param in ("1", "true") or st.session_state.get("force_mobile", False)
-    except:
-        # Ancienne API
-        try:
-            qp = st.experimental_get_query_params()
-            mobile_param = qp.get("mobile", ["0"])[0]
-            return mobile_param in ("1", "true") or st.session_state.get("force_mobile", False)
-        except:
-            return st.session_state.get("force_mobile", False)
+#def is_mobile():
+#    """Détection mobile côté serveur"""
+  #  try:
+  #      # Nouvelle API
+   #     mobile_param = st.query_params.get("mobile", "0")
+   #     return mobile_param in ("1", "true") or st.session_state.get("force_mobile", False)
+  #  except:
+  #      # Ancienne API
+  #      try:
+  #          qp = st.experimental_get_query_params()
+  #          mobile_param = qp.get("mobile", ["0"])[0]
+   ##         return mobile_param in ("1", "true") or st.session_state.get("force_mobile", False)
+  #      except:
+  #          return st.session_state.get("force_mobile", False)
 
 def main():
     """Fonction principale avec router unifié et navigation mobile native"""
