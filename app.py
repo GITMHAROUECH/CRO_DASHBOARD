@@ -1063,30 +1063,30 @@ def slugify(name: str) -> str:
     """Convertit un nom de page en slug URL"""
     return name.lower().replace(" ", "-").replace("'", "").replace("&", "")
 
-def sync_url(page_name: str):
-    """Synchronise l'URL avec la page courante"""
-    try:
-        st.query_params.page = slugify(page_name)
-    except:
+#def sync_url(page_name: str):
+   # """Synchronise l'URL avec la page courante"""
+  #  try:
+  #      st.query_params.page = slugify(page_name)
+  #  except:
         # Fallback pour versions anciennes
-        try:
-            st.experimental_set_query_params(page=slugify(page_name))
-        except:
-            pass
+   #     try:
+     #       st.experimental_set_query_params(page=slugify(page_name))
+    #    except:
+    #         pass
 
-def get_page_from_url():
-    """Récupère la page depuis l'URL"""
-    try:
-        # Nouvelle API
-        page_slug = st.query_params.get("page", None)
-    except:
-        # Ancienne API
-        try:
-            qp = st.experimental_get_query_params()
-            page_slug = qp.get("page", [None])[0]
-        except:
-            return None
-    
+# def get_page_from_url():
+#     """Récupère la page depuis l'URL"""
+#     try:
+#         # Nouvelle API
+ #        page_slug = st.query_params.get("page", None)
+#     except:
+  #       # Ancienne API
+  #       try:
+  #           qp = st.experimental_get_query_params()
+ #            page_slug = qp.get("page", [None])[0]
+  #       except:
+  #           return None
+  #   
     if not page_slug:
         return None
     
@@ -1406,7 +1406,7 @@ def main():
             target_page = tab_map[active_tab]
             if st.session_state.current_page != target_page:
                 st.session_state.current_page = target_page
-                sync_url(target_page)
+               # sync_url(target_page)
 
             if target_page in PAGES:
                 try:
@@ -1422,9 +1422,9 @@ def main():
         # Desktop : sidebar native + routing par boutons
         render_sidebar()
 
-        page_from_url = get_page_from_url()
-        if page_from_url and page_from_url != st.session_state.current_page:
-            st.session_state.current_page = page_from_url
+        # page_from_url = get_page_from_url()
+       #  if page_from_url and page_from_url != st.session_state.current_page:
+           #  st.session_state.current_page = page_from_url
 
         # Toggle "forcer mobile" pour tests
         # with st.sidebar:
