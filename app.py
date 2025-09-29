@@ -1368,9 +1368,9 @@ def main():
 
 
     # 4) Petit hint (1 seule fois) pour utilisateurs mobile
-    if is_mobile() and st.session_state.get("hint_sidebar", True):
-        st.info("📱 Astuce : utilisez le bouton « << » en haut à gauche pour ouvrir/fermer le menu.")
-        st.session_state.hint_sidebar = False
+    #if is_mobile() and st.session_state.get("hint_sidebar", True):
+    #    st.info("📱 Astuce : utilisez le bouton « << » en haut à gauche pour ouvrir/fermer le menu.")
+     #   st.session_state.hint_sidebar = False
 
     # 5) CSS custom existant + init
     st.markdown(get_custom_css(), unsafe_allow_html=True)
@@ -1383,16 +1383,16 @@ def main():
     # 7) Import (analyse prospective)
    
     # 8) Navigation mobile (tabs) ou desktop (sidebar)
-    if is_mobile():
-        tabs = st.tabs(["🏠 Vue", "📊 Risques", "🧭 Actions", "🏗️ Framework", "📋 Conformité", "🔮 Prospective"])
-        tab_map = {
-            0: "Vue d'Ensemble",
-            1: "Tableau de Bord Risques",
-            2: "Pilotage des Actions",
-            3: "Framework CRO",
-            4: "Conformité Réglementaire",
-            5: "Analyse Prospective"
-        }
+    #if is_mobile():
+    #    tabs = st.tabs(["🏠 Vue", "📊 Risques", "🧭 Actions", "🏗️ Framework", "📋 Conformité", "🔮 Prospective"])
+    #    tab_map = {
+     #        0: "Vue d'Ensemble",
+     #        1: "Tableau de Bord Risques",
+     # #        2: "Pilotage des Actions",
+     #        3: "Framework CRO",
+      #       4: "Conformité Réglementaire",
+     #        5: "Analyse Prospective"
+     #    }
 
         # Déterminer l'onglet à afficher (selon current_page)
         active_tab = 0
@@ -1449,4 +1449,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
