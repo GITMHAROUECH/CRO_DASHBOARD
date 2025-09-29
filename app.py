@@ -1427,17 +1427,17 @@ def main():
             st.session_state.current_page = page_from_url
 
         # Toggle "forcer mobile" pour tests
-        with st.sidebar:
-            st.markdown("---")
-            st.markdown("**🔧 Mode Debug**")
-            force_mobile = st.checkbox(
-                "Forcer le mode mobile",
-                value=st.session_state.get('force_mobile', False),
-                help="Active l'interface mobile même sur desktop (pour tests)"
-            )
-            if force_mobile != st.session_state.get('force_mobile', False):
-                st.session_state.force_mobile = force_mobile
-                st.rerun()
+        # with st.sidebar:
+         #    st.markdown("---")
+         #    st.markdown("**🔧 Mode Debug**")
+         #    force_mobile = st.checkbox(
+         #        "Forcer le mode mobile",
+          #       value=st.session_state.get('force_mobile', False),
+          #       help="Active l'interface mobile même sur desktop (pour tests)"
+          #   )
+          #   if force_mobile != st.session_state.get('force_mobile', False):
+         #        st.session_state.force_mobile = force_mobile
+         #        st.rerun()
 
         # Rendre la page courante
         if st.session_state.current_page in PAGES:
